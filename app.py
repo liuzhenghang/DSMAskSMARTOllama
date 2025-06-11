@@ -20,7 +20,7 @@ def ask_smart():
     try:
         
         # 构造 Ollama 请求
-        prompt = f"这是群晖系统的SMART报告，请总结成表格，并评估健康状态。\n\n{content}"
+        prompt = f"这是群晖系统的SMART报告，请翻译成中文，并评估健康状态。\n\n{content}"
         
         # 请求 Ollama API
         response = requests.post(
